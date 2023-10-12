@@ -1,0 +1,339 @@
+ *{
+    
+    margin: 0;
+    padding: 0;
+    
+    
+ }
+ body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .counter-bg-con{
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color:#f1f5f8;
+    height: 40vh;
+    width: 150vh;
+    margin-left: 20vh;
+    font-family: "Roboto";
+    text-align: center;
+    border-style: inherit;
+    
+ }
+ .counter-heading{
+    color: #2d3a35;
+    font-size: 40px;
+ }
+ .counter{
+    color: #7c0505;
+ }
+ p{
+    font-size: 20px;
+ }
+.counter-btn{
+    background-color: aqua;
+    color: #fff;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+/*speedometer*/
+.speedometer-bg-con{
+    background-color: #07080c;
+    color: #fff;
+    border-radius: 15px;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 30px;
+    width: 150vh;
+    margin-left: 20vh;
+    border-style: inset;
+   
+    
+}
+.speedometer-heading{
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 30px;
+}
+.speedometer-speed{
+    font-weight: 600;
+}
+.speedometer-img{
+    width: 50%;
+    
+}
+.speedometer-marning{
+    color: #94a3b8;
+    font-size: 18px;
+    margin: 30px 0;
+
+}
+button{
+    height: 30px;
+    border: 2px;
+    border-radius: 0px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn-accelerate{
+    background-color: #0b69ff;
+    color: #cbd5e1;
+    margin-right: 20px;
+}
+.btn-break{
+    background-color:#7da0d8;
+    color: #94a3b8;
+    border: #94a3b8 solid3px;
+    margin-left: 20px;
+}
+/*welcome*/
+.welcome-bg-btn{
+  background-color: #1e293b;
+  height: 500px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Bree serif';
+  margin-top: 30px;
+  width: 150vh;
+  margin-left: 20vh;
+  border-style: outset;
+ 
+ }   
+ .welcome-heading{
+    color: #f0eb05;
+    margin-bottom: 20px;
+    font-size: 80px;
+ }
+.welcome-description {
+ color: #fff;
+ margin: 30px 0;
+}  
+button{
+    color: #1e293b;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 600;
+}
+/*Fruits*/
+.fruits-counter-container{
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd569;
+    width: 150vh;
+    margin-left: 20vh;
+    margin-top: 30px;
+    border-style: ridge;
+}
+.fruits-counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 90%;
+    padding: 24px;
+    max-width: 1000px;
+}
+.count-text{
+    text-align: center;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+}
+.counts{
+    color: #ffd569;
+}
+.counters-control-container{
+    display: flex;
+    flex-direction: column;
+}
+.counter-control{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.fruit-image{
+width: 200px;
+height: 175px;
+}
+.button-container{
+    text-align: center;
+    margin-top: 25px;
+}
+.button{
+    color: #ffffff;
+    background-color: #0b69ff;
+    font-size: 12px;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    outline: none;
+    cursor: pointer;
+}
+/* showhide*/
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 15px;
+    width: 150vh;
+    margin-left: 20vh;
+    margin-top: 30px;
+    border-style: inset;
+    background-image: linear-gradient(to right,#fa7257,#fc63a2);
+}
+.heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 700;
+}
+.show-hide-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.show-hide-button{
+    color: #dd1264;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+/*Evenodd*/
+
+.count-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    width: 400;
+    border-radius: 15px;
+    background-image: linear-gradient(#e2a4ab, #c6cfd4);
+    margin-top: 30px;
+    width: 150vh;
+    margin-left: 150px;
+}
+.count{
+    color: #0f172a;
+    font-size: 32px;
+}
+.number-category{
+    color: #334155;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+.increment-button{
+    color: #1e293b;
+    font-size: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+.note{
+    font-size: 30px;
+    color: #334155;
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 150vh;
+    margin-left: 150px;
+    
+
+}
+.mainHomePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 1200px;
+    border-radius: 12px;
+    background-image: linear-gradient(#2b2c49,#b5b9ff);
+}
+.login-btn{
+    color: #303150;
+    font-family: "Roboto";
+    font-size: 14px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f8fafc;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+}
+.logout-btn{
+    color: #303150;
+    font-family: "Roboto";
+    font-size: 14px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f8fafc;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+}
